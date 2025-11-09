@@ -9,5 +9,5 @@ rate = 0.05 # rate
 time = 3 # years(time)
 
 #let calculate for the interest (I = P * R * T)
-interest = (principal * rate * time)
+interest = (principal * rate * time)/100
 print("The simple interest is ", interest)

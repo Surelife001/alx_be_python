@@ -5,7 +5,7 @@ found by
 multiplying its length by its width.
 """
 
-lenght = 10
+Length = 10
 width = 5
-area = (lenght * width)
+area = (Length * width)
 print("The area of the rectangle is: ", area)
