@@ -2,11 +2,11 @@
 
 weather = input("What's the weather like today? (sunny/rainy/cold):").lower()
 # control flow to provide advice based on weather
-if weather is "sunny":
+if weather == "sunny":
     recommendation = "Wear a t-shirt and sunglasses"
-elif weather is "rainy":
+elif weather == "rainy":
     recommendation ="Don't forget your umbrella and a raincoat"
-elif weather is "cold":
+elif weather == "cold":
     recommendation =" Make sure to wear a warm coat and a scarf."
 else:
     recommendation="Sorry, I don't have recommendations for this weather."
