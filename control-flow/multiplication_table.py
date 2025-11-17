@@ -6,7 +6,7 @@ Create a Python script named multiplication_table.py.
 """
 
 # user input for the number
-number = int(input("Enter a number to see its multiplication table:"))
+number = int(input("Enter a number to see its multiplication table: "))
 # using for loop to print multiplication table
 for i in range(1, 11):
     result = number * i
